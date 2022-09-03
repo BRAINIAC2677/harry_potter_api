@@ -37,6 +37,7 @@ schema_views = get_schema_view(
 urlpatterns = [
     path('api/characters/', include('characters.urls')),
     path('api/movies/', include('movies.urls')),
+    path('api/spells/', include('spells.urls')),
 
     path('swagger/', schema_views.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_views.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
