@@ -8,7 +8,9 @@ A free API for all information of potterworld using django and django-rest-frame
 
 <br/>
 
-![](/assets/logo.jpg)
+
+![](/assets/show2.png)
+![](/assets/show1.png)
 
 ### **Built With**
 - :blue_heart:
