@@ -1,1 +1,31 @@
 # Harry Potter API
+
+A free API for all information of potterworld.
+
+### _**Let's go to [documentation](https://potterworld-api.herokuapp.com/redoc/)**_
+
+### _**Let's see the API in action [here](https://potterworld-api.herokuapp.com/swagger/)**_
+
+<br/>
+
+![](/assets/logo.jpg)
+
+### **Built With**
+- :black_heart:
+- Django
+- Django Rest Framework
+
+### **Features**
+- [x] Pagination
+- [x] Ordering
+- [x] Filtering
+- [x] Versioning
+- [x] Swagger
+- [x] Redoc
+
+### **Notes**
+- Check out [here](./.env.example) for environment variables setup
+
+
+
+
