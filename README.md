@@ -27,6 +27,8 @@ A free API for all information of potterworld using django and django-rest-frame
 - [x] Redoc
 
 ### **Notes**
+- Supports only GET requests
+- No authentication required
 - Check out [here](./.env.example) for environment variables setup
 
 
