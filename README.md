@@ -1,6 +1,6 @@
 # Harry Potter API
 
-A free API for all information of potterworld.
+A free API for all information of potterworld using django and django-rest-framework.A free API for all information of potterworld.
 
 ### _**Let's go to [documentation](https://potterworld-api.herokuapp.com/redoc/)**_
 
@@ -11,9 +11,10 @@ A free API for all information of potterworld.
 ![](/assets/logo.jpg)
 
 ### **Built With**
-- :black_heart:
+- :blue_heart:
 - Django
 - Django Rest Framework
+- PostgreSQL
 
 ### **Features**
 - [x] Pagination
