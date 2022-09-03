@@ -4,3 +4,7 @@ psycopg2-binary
 python-dotenv 
 drf-yasg
 django-filter
+dj-database-url
+gunicorn
+whitenoise
+django-cors-headers
