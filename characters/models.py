@@ -1,4 +1,6 @@
+from urllib import request
 from django.db import models
+from rest_framework.reverse import reverse
 
 # Create your models here.
 class Character(models.Model):
@@ -10,6 +12,9 @@ class Character(models.Model):
     patronus = models.CharField(max_length=20, null=True)
     wand_wood = models.CharField(max_length=20, null=True)
     wand_core = models.CharField(max_length=60, null=True)
+
+    def get_absolute_url(self, request):
+        return reverse('character-detail', kwargs={'id': self.id}, request=request)
 
     class Meta:
         db_table = 'characters'
