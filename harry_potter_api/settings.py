@@ -58,6 +58,8 @@ INSTALLED_APPS = [
     'movies',
     'spells',
     'places',
+    'chapters',
+    'dialogues',
 ]
 
 REST_FRAMEWORK = {
