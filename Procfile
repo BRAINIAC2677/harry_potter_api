@@ -1,1 +1,1 @@
-web: gunicorn <project_name>.wsgi --log-file -
+web: gunicorn harry_potter_api.wsgi --log-file -
